@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./main.js"></script>
+    <title>Document</title>
+    <style>
+        * { margin:0; padding:0; font-family: Verdana, Geneva, Tahoma, sans-serif; }
+        main { max-width: 600px; margin: 50px auto; }
+        input { width: 74%; padding: 5px 10px; border-radius: 5px; }
+        button { width: 20%; background: lightblue; border:0; border-radius: 5px;}
+        button:hover { background: rgb(141, 183, 198); }
+        .cont { display: flex; justify-content: space-between; margin: 10px 0; }
+        #todo-container { border: 1px solid #eee; min-height: 40px; border-radius: 2px; }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>ToDo List</h1>
+        <div class="cont">
+            <input type="text" placeholder="new task" ><button id="addtask" value="Add">Add</button>
+        </div>
+        <div id="todo-container">
+
+        </div>
+    </main>
+</body>
+</html>
